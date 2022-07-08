@@ -1,0 +1,120 @@
+.nt-home {
+
+  &-header {
+    text-align: center;
+  }
+
+  .nt-box {
+    margin-bottom: 1rem;
+  }
+
+  &-featured {
+    ul {
+      list-style: none;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-justify-content: space-around;
+      justify-content: space-around;
+      li {
+        padding: 1rem;
+      }
+    }
+  }
+
+  &-by-genre {
+    ul {
+      list-style: none;
+      li {
+        display: inline-block;
+        width: auto;
+        padding: .5rem;
+      }
+    }
+  }
+}
+
+
+.nt-box {
+  border: 1px solid lightgrey;
+  border-radius: .5rem;
+  padding: .2rem;
+  background: #FFFFFF;
+
+  &-title {
+    padding: .5rem;
+    color: saddlebrown;
+    font-size: 1.2rem;
+  }
+
+  &-row {
+    padding: .5rem;
+    margin: 0;
+  }
+}
+
+
+.nt-carousel {
+  position: relative;
+
+  &-list {
+    position: relative;
+    margin: 0;
+  }
+
+  &-item {
+    vertical-align: top;
+  }
+
+  &-arrow {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+  }
+
+  &-left {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    display: inline-block;
+    padding: 1rem;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.3);
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  &-right {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    display: inline-block;
+    padding: 1rem;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.3);
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+
+.buttonLink {
+  background-color: #de3ac6;
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: inline;
+  cursor: pointer;
+  color: #008CBA;
+
+  &:hover {
+    color: #0078a0;
+  }
+}
+
+
+
+
+
